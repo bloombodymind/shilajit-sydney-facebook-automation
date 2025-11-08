@@ -14,7 +14,7 @@ class FacebookPoster:
         """Load posts from JSON file"""
         with open('posts.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
-            return data['posts']
+                    return data
     
     def get_today_post(self, posts):
         """Get post for today based on day number (1-30)"""
