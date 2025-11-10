@@ -12,6 +12,11 @@ Automated Facebook posting system for Shilajit Sydney. Schedules 30 days of post
 
 **⚠️ IMPORTANT: The token you're currently using is expiring daily. Follow these steps to generate a permanent token that never expires.**
 
+**🚀 QUICK FIX:** If your workflow is failing with "token expired" errors:
+1. Follow Steps 1-5 below to generate a permanent token
+2. The new token will show "Expires: Never" in the debugger
+3. Update your GitHub secret and the workflow will work indefinitely
+
 #### Step 1: Generate a Short-Lived User Access Token
 1. Go to [Facebook Graph API Explorer](https://developers.facebook.com/tools/explorer)
 2. Select your app from the dropdown menu (top right)
